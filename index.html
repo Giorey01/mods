@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,500..800&family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script>
+  // Before first paint, so a saved theme does not flash.
+  try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+</script>
+<title>Giorey01 mods — game mods, built in the open</title>
+<meta name="description" content="A catalogue of the game mods made by Giorey01: what each one does, screenshots, and how to install it on Windows, Linux and Steam Deck.">
+<meta property="og:title" content="Giorey01 mods">
+<meta property="og:description" content="Game mods, built in the open: what each one does, screenshots, and one-line installs.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://giorey01.github.io/mods/assets/mods/kill-the-crows-coop/cover.jpg">
+</head>
+<body data-page="home">
+<header class="nav" id="nav"></header>
+
+<main>
+  <section class="band">
+    <div class="band__inner"><div class="frame frame--ticks">
+      <div class="label"><span>01 / <b>Mods</b></span><span>Made for games I play</span></div>
+      <div class="hero">
+        <h1>Mods, built in the <em>open</em>.</h1>
+        <p>I take games I like and add what I wish they had: a second player, a menu full of toys, a better camera. Everything here is free, open source, and installs with one line.</p>
+        <div class="hero__actions">
+          <a class="btn btn--solid" href="#catalogue">Browse the catalogue</a>
+          <a class="btn" href="https://github.com/Giorey01" rel="noopener">GitHub profile</a>
+        </div>
+      </div>
+      <div class="figures" id="figures" style="border-top:1px solid var(--line)"></div>
+    </div></div>
+  </section>
+
+  <section class="band" id="catalogue">
+    <div class="band__inner"><div class="frame frame--ticks">
+      <div class="label"><span>02 / <b>Catalogue</b></span><span id="count"></span></div>
+      <div class="grid" id="grid"></div>
+      <noscript><p style="padding:24px">This page lists the mods with JavaScript. Without it, see <a href="https://github.com/Giorey01?tab=repositories">the repositories on GitHub</a>.</p></noscript>
+    </div></div>
+  </section>
+
+  <section class="band" id="approach">
+    <div class="band__inner"><div class="frame frame--ticks">
+      <div class="label"><span>03 / <b>Approach</b></span><span>The same for every mod</span></div>
+      <div class="grid">
+        <div class="cell">
+          <div class="cell__top"><span class="cell__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 7-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></svg></span><span class="cell__index mono">A</span></div>
+          <h3>Source in the open</h3>
+          <p>Every mod is a public repository under the MIT licence, with a build script and notes on how it works. No game files, no decompiled code.</p>
+        </div>
+        <div class="cell">
+          <div class="cell__top"><span class="cell__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v12M6 11l6 6 6-6M5 20h14"/></svg></span><span class="cell__index mono">B</span></div>
+          <h3>One line to install</h3>
+          <p>An installer for Windows and one for Linux and Steam Deck. It finds the game, adds the mod loader if it is missing, and checks every download.</p>
+        </div>
+        <div class="cell">
+          <div class="cell__top"><span class="cell__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5 9.5 18 20 6.5"/></svg></span><span class="cell__index mono">C</span></div>
+          <h3>Honest about its state</h3>
+          <p>Each page says what was tested and what was not. Mods stay out of your saves and achievements, and out of other players' way.</p>
+        </div>
+      </div>
+    </div></div>
+  </section>
+
+  <section class="band" id="contact">
+    <div class="band__inner"><div class="frame frame--ticks">
+      <div class="label"><span>04 / <b>Contact</b></span><span>Pick one</span></div>
+      <div class="grid">
+        <a class="cell" href="https://github.com/Giorey01" rel="noopener">
+          <div class="cell__top"><span class="cell__icon"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85V21c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></svg></span><span class="cell__index mono">A</span></div>
+          <h3>Follow on GitHub</h3>
+          <p>New mods and releases show up there first.</p>
+          <div class="cell__foot"><span class="mono more">Open the profile <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+        </a>
+        <a class="cell" href="#catalogue">
+          <div class="cell__top"><span class="cell__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16.5h.01"/></svg></span><span class="cell__index mono">B</span></div>
+          <h3>Report a problem</h3>
+          <p>Each mod has its own issue tracker, linked from its page. Attach the log and say what you were doing.</p>
+          <div class="cell__foot"><span class="mono more">Find the mod <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+        </a>
+        <a class="cell" href="https://github.com/Giorey01/mods/issues/new" rel="noopener">
+          <div class="cell__top"><span class="cell__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2.1h5c0-.9.4-1.600 1-2.1A6 6 0 0 0 12 3z"/></svg></span><span class="cell__index mono">C</span></div>
+          <h3>Suggest a mod</h3>
+          <p>A game that needs something? Tell me which one and what is missing.</p>
+          <div class="cell__foot"><span class="mono more">Write an idea <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+        </a>
+      </div>
+    </div></div>
+  </section>
+</main>
+
+<footer id="footer"></footer>
+<script src="data/mods.js"></script>
+<script src="js/site.js"></script>
+</body>
+</html>
